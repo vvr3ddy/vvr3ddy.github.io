@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Bio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* Container for flexboxes */
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* Create four equal columns */
+        
+        .column {
+            flex: 25%;
+            padding: 20px;
+        }
+        /* On screens that are 992px wide or less, go from four columns to two columns */
+        
+        @media screen and (max-width: 992px) {
+            .column {
+                flex: 50%;
+            }
+        }
+        /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 600px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body class="container-fluid bg-dark">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <hr>
+    <div class="mt-5 jumbotron jumbotron-fluid rounded-lg">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col font-name ">
+                <h1 class="text-left font-weight-bold">I'm Vishnuvardhan Reddy</h1>
+                <h4 class="text-left">-I'm an electronics Student based on Bangalore</h4>
+            </div>
+            <div class="col text-center">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/java.svg" width="100px" height="100px">
+                    </div>
+                    <div class="col">
+                        <img src="images/electronics.svg" width="100px" height="100px" alt="electronics">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col align-self-center">
+                        <img src="images/js.svg" alt="JS" width="100px" height="100px" class="mt-2">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="about-me container-fluid">
+        <h1 class="text-center text-light">My character defines me</h1>
+        <hr>
+        <div>
+            <div class="row text-center">
+                <div class="col"></div>
+                <div class="card col mt-3 mr-3 text-danger" style="background-color: #fcd0cd;">
+                    <img src="images/perfectionist.svg" alt="perfectionist" height="200px" class="mt-1">
+                    <h1><strong>Focussed</strong></h1>
+                    <hr>
+                    <p class="card-body">As someone who tends to be very focused on the details, others may see me as a perfectionist.</p>
+                </div>
+                <div class="col card mt-3 text-success" style="background-color: #ebeeb9;">
+                    <img src="images/curious.png" alt="challenging" height="200px" class="mt-1">
+                    <h1><strong>Curious</strong></h1>
+                    <hr>
+                    <p class="card-body">I enjoy seeking out challenging opportunities and am confident in my ability to learn and improve over time.</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row text-center">
+                <div class="col"></div>
+                <div class="col card mt-3 mr-3 text-success" style="background-color: #cbe9ba;">
+                    <img src="images/teamwork.png" alt="responsible" height="200px" class="mt-5 mb-5">
+                    <h1><strong>Supportive</strong></h1>
+                    <hr>
+                    <p class="card-body">I tend to hold myself and others to high standards, delegate responsibility, and let others make decisions.</p>
+                </div>
+                <div class="col card mt-3 text-primary" style="background-color:#a7d6e6">
+                    <img src="images/spotlight.jpg" alt="center of attention" height="300px" class="mt-1">
+                    <h1 class=""><strong>Crowd Seeker</strong></h1>
+                    <hr>
+                    <p class="card-body">I am typically outgoing in social situations, and occasionally enjoy being the center of attention.</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+            <h1 class="text-center text-light">Education</h1>
+            <hr>
+            <div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col card mr-3" style="background-color: #a7d6e6;">
+                        <img src="images/grad.png" alt="School" height="200px">
+                        <h1 class="font-weight-bold text-center text-info mt-2">Class 10</h1>
+                        <hr class="bg-dark">
+                        <div class="card-body text-center text-dark">
+
+                            <h5>Kendriya Vidyalaya IISc</h5>
+                            <h6>2015</h6>
+                            <h6>CGPA : 10/10</h6>
+                        </div>
+                    </div>
+                    <div class="col card mr-3" style="background-color:thistle;">
+                        <img src="images/grad2.png" alt="School" height="200px">
+                        <h1 class="font-weight-bold text-center mt-2" style=" color:#6d406d">Class 12</h1>
+                        <hr class="bg-dark">
+                        <div class="card-body text-center">
+
+                            <h5>Kendriya Vidyalaya IISc</h5>
+                            <h6>2017</h6>
+                            <h6>Percentage : 88.60</h6>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col card mr-3 mt-3 text-center" style="background-color: khaki;">
+                        <img src="images/grad3.png" alt="School" height="200px">
+                        <h1 class="font-weight-bold text-center text-danger mt-4">Graduation</h1>
+                        <hr class="bg-dark">
+                        <div class="card-body text-center text-dark">
+                            <h4 class="font-weight-bold">B.E Telecommunication Engineering</h4>
+                            <h6>BMS Institute of Technology & Management</h6>
+                            <h6><strong>2017-2021</strong></h6>
+                            <h6><strong>Current Aggregate:</strong> 8.25/10</h6>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="bg-light">
+
+        <div class="text-center">
+            <h1 class="text-light">Skills</h1>
+            <hr class="bg-light">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col card">
+                    <img src="images/java.svg" alt="Java">
+                    <hr>
+                    <p class="card-body">
+                        I am confident in the domain of <strong>core Java</strong> and can solve problems based on logical analysis.
+                    </p>
+                </div>
+                <div class="col card ml-3">
+                    <img src="images/js.svg" alt="JS" class="mt-5 mb-5">
+                    <hr>
+                    <p class="card-body">
+                        I am a keen learner of <strong>Javascript</strong> as a tool to develop web applications. I also have interest in <strong>Vue</strong> and <strong>ReactJS</strong>.
+                    </p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <h1>Projects</h1>
+            <hr>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col card">
+                    <img src="images/comsol.png" alt="COMSOL">
+                    <p class="font-weight-bold">Cantilever based thin film sensor designed using Comsol Multiphysics for detection of trace amounts of molecules in air.</p>
+                    <hr>
+                    <p class="card-body">
+                        A Simulation based project demonstrated using COMSOL Multiphysics, which bagged us first prize in PBL 2019 Spring.
+                    </p>
+                </div>
+                <div class="col card ml-3">
+                    <img src="images/comsol.png" alt="COMSOL">
+                    <p class="font-weight-bold">FET based high sensitivity sensor designed using Comsol Multiphysics for detection of pH changes in soil with increased accuracy</p>
+                    <hr>
+                    <p class="card-body">A Simulation based project demostrated using COMSOL Multiphysics, which bagged us first prize in PBL 2019 Fall.</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <h1>Hobbies</h1>
+            <hr>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-3 card mt-3">
+                    <img src="images/music.png" alt="Music" height="200px" width="200px" class="mx-auto">
+                    <h1>Music</h1>
+                    <hr>
+                    <p class="card-body">Keeps me on my feet when I'm productive.</p>
+                </div>
+                <div class="col-3 card mt-3 ml-3">
+                    <img src="images/cricket.webp" height="200px" alt="Cricket" class="mx-auto">
+                    <h1>Cricket</h1>
+                    <hr>
+                    <p class="card-body">The rightful stress buster.</p>
+                </div>
+                <div class="col-3 card mt-3 ml-3">
+                    <img src="images/chef.png" alt="Cooking" height="200px" class="mx-auto">
+                    <h1>Cooking</h1>
+                    <hr>
+                    <p class="card-body">Motivates me try new stuff</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="text-center">
+            <p>Copyright VVR</p>
+        </footer>
+</body>
+
+</html>
